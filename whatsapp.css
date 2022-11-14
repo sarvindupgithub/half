@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: 8% auto;
+    width: 280px;
+    height: 156mm;
+    border: 15px solid #000;
+    border-radius: 50px;
+    background: white;
+    background-size: 100%;
+    box-shadow: 10px 10px 10px 5px grey;
+    position: relative;
+}
+.notch{
+    margin: 10px auto;  
+    width: 90px;
+    height: 20px;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #000;
+    cursor: pointer;
+}
+.notch:hover{
+    margin: 10px auto;  
+    width: 135px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #000;
+}
+.cemara{
+    width: 5px;
+    margin-top: 2px;
+    height: 5px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 3px;
+    padding: 5px;
+    background-color: #111;
+}
+.iphone-base{
+    position: relative;
+}
+.button-section{
+    margin-top: 20px;
+    position: absolute;
+    left: -17px;
+}
+.silent{
+    background-color: #000;
+    height: 30px;
+    width: 1px;
+    border-radius: 3px;
+    padding: 3px;
+}
+.buttons{
+    cursor: pointer;
+    left: 0%;
+    margin-top: 10px;
+}
+.volume-up{
+    height: 60px;
+    width: 1px;
+    padding: 3px;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 3px;
+}
+.volume-down{
+    height: 60px;
+    width: 1px;
+    padding: 3px;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 3px;
+}
+.on-off{
+    height: 80px;
+    width: 1px;
+    padding: 3px;
+    position: absolute;
+    background-color: #000;
+    margin-left: 307px;
+    top: 0;
+    margin-top: 100px;
+    border-radius: 3px;
+}
+.volume-section{
+    margin-top: 30px;
+}
+ .display-time {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    border-radius: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #000;
+    position: absolute;
+    transition: ease-in-out 0.1s;
+    transition-property: background, box-shadow, color;
+    -webkit-box-reflect: below 2px
+      linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+  }
+  .top-icons{
+    display: flex;
+    top: 0;
+    position: absolute;
+    margin-top: 17px;
+    gap: 7px;
+    margin-left: 220px;
+  }
+  #wifi{
+    padding-top: 4px;
+  }
+  .top-link{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .top-link a{
+    color: #053BE6;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .top-link a img{
+    float: right;
+    margin-left: 210px;
+  }
+  .chat-section{
+    padding-left: 10px;
+  }
+  .chat-section h1 {
+    font-size: 27px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+.search-box{
+    margin-top: 10px;
+}
+.search-box input{
+    height: 35px;
+    outline: none;
+    width: 78%;
+    padding-left: 30px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgba(238, 238, 238, 0.9);
+    position: relative;
+    border-radius: 10px;
+}
+.search-box i{
+    color: grey;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    line-height: 35px;
+}
+.broadcast-section{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    font-family: 'Open Sans', sans-serif;
+}
+.broadcast-section a{
+    color: #053BE6;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.broadcast-top{
+    display: flex;
+}
+.new-group{
+    margin-left: 75px;
+}
+.contact{
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid rgb(226, 225,225);
+    width: 98%;
+    margin-top: 3px;
+}
+.profile {
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.username h2{
+    padding-left: 10px;
+    font-size: 19px;
+}
+.username h5{
+    padding-left: 10px;
+    color: #555;
+    display: flex;
+    font-weight: 600;
+}
+.username span{
+    font-style: italic;
+    font-weight: lighter;
+    color: #888;
+    padding-left: 2px;
+}
+.msg-time{
+    position: absolute;
+    float: right;
+    margin-left: 210px;
+    color: #bbb;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: lighter;
+    align-items: center;
+}
+.msg-time img{
+    padding-top: 22px;
+    position: absolute;
+    left: 0;
+    padding-left: 13px;
+}
+.msg-time h3{
+    margin-bottom: 30px;
+}
+.back-chat{
+    display: flex;
+    padding-left: 10px;
+    text-align: center;
+    position: absolute;
+}
+.back-chat i{
+    color: #053BE6;
+    font-weight: 900;
+}
+.back-chat a{
+    text-decoration: none;
+    color: #053BE6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.chat-top{
+    background-color: whitesmoke;
+    height: 50px;
+}
+.user-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.username h2,h1,h4,h5,h6,p{
+    color: #111;
+    text-decoration: none;
+}
+.user-name h1{
+    font-weight: lighter;
+}
+.user-name p{
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+}
+.profile-chat{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.chat{
+    width: 100%;
+    padding: 0 15px;
+    color: #fff;
+    position: relative;
+    font-size: 0.9rem;
+}
+.client-chat{
+    width: 60%;
+    word-wrap: break-word;
+    
+}
